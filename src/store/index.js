@@ -30,7 +30,6 @@ const store = createStore({
   },
   actions:{
     getData({commit, state}, data = {}){
-      console.log(data)
       if(data.query){
         commit('SET_QUERY', data.query)
       }
