@@ -220,6 +220,7 @@ export default {
         page: 0,
         query: query,
       });
+      this.drawerRight = false;
     },
     resetFilter() {
       this.filter.poin = false;
